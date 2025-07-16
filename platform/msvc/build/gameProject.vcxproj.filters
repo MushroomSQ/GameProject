@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d384482c-d6cc-4b3c-b9bd-1892a8437c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{334e5059-b365-40c7-8937-7b387eb1f1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\runtime">
+      <UniqueIdentifier>{83c132bd-711d-4411-9e19-7987f980b57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\runtime\reflect">
+      <UniqueIdentifier>{ea158ba5-634e-42d1-81b8-7cc675142f80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
