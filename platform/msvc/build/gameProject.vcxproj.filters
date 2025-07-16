@@ -1,22 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="src">
+    <Filter Include="Source">
       <UniqueIdentifier>{d384482c-d6cc-4b3c-b9bd-1892a8437c5b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\engine">
+    <Filter Include="Source\engine">
       <UniqueIdentifier>{334e5059-b365-40c7-8937-7b387eb1f1c1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\engine\runtime">
+    <Filter Include="Source\engine\runtime">
       <UniqueIdentifier>{83c132bd-711d-4411-9e19-7987f980b57d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\engine\runtime\reflect">
+    <Filter Include="Source\engine\runtime\core">
+      <UniqueIdentifier>{4c371381-7d81-40b4-a372-2c5bc851ee32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine\runtime\core\meta">
+      <UniqueIdentifier>{53d09e0b-2329-481e-85d5-dc13a0df1e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine\runtime\core\meta\serializer">
+      <UniqueIdentifier>{4731bac1-6cbd-4586-9484-13c751495dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine\runtime\core\meta\reflection">
       <UniqueIdentifier>{ea158ba5-634e-42d1-81b8-7cc675142f80}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\main.cpp">
-      <Filter>src</Filter>
+      <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\Source\engine\runtime\core\meta\serializer\serializer.cpp">
+      <Filter>Source\engine\runtime\core\meta\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\engine\runtime\core\meta\reflection\reflection.cpp">
+      <Filter>Source\engine\runtime\core\meta\reflection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Source\engine\runtime\core\meta\serializer\serializer.h">
+      <Filter>Source\engine\runtime\core\meta\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\engine\runtime\core\meta\reflection\reflection.h">
+      <Filter>Source\engine\runtime\core\meta\reflection</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
