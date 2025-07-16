@@ -1,0 +1,15 @@
+/platform/msvc/build/.vs/gameProject/FileContentIndex/*.vsidx
+/platform/msvc/build/.vs/gameProject/v17/*.db
+/platform/msvc/build/.vs/gameProject/v17/*.db-shm
+/platform/msvc/build/.vs/gameProject/v17/*.db-wal
+/platform/msvc/build/.vs/gameProject/v17/*.opendb
+/platform/msvc/build/.vs/gameProject/v17/*.suo
+/platform/msvc/build/.vs/gameProject/v17/*.json
+/platform/msvc/build/gameProject/x64/Debug/*.recipe
+/platform/msvc/build/gameProject/x64/Debug/*.ilk
+/platform/msvc/build/gameProject/x64/Debug/*.log
+/platform/msvc/build/gameProject/x64/Debug/gameProject.tlog/*.tlog
+/platform/msvc/build/gameProject/x64/Debug/gameProject.tlog/*.lastbuildstate
+/platform/msvc/build/gameProject/x64/Debug/*.obj
+/platform/msvc/build/gameProject/x64/Debug/*.idb
+/platform/msvc/build/gameProject/x64/Debug/*.pdb
